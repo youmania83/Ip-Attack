@@ -26,7 +26,7 @@
 import sys
 import time
 import os
-from urllib2 import *
+from urllib3 import *
 from platform import system
 print
 print
@@ -36,18 +36,18 @@ os.system("bash logo.sh")
 print
 print
 print
-print "\033[1m\033[32m\t\t \033[1m\033[31m<==\033[33m[\033[32m Author Info \033[33m]\033[31m==>\033[0m"
+print("\033[1m\033[32m\t\t \033[1m\033[31m<==\033[33m[\033[32m Author Info \033[33m]\033[31m==>\033[0m")
 time.sleep(3)
 print
 print
 print
-print "\033[1m\033[33m\n\tDeveloper : \033[32m \033[33mS\033[32mutariya \033[33mP\033[32marixit\033[0m"
+print( "\033[1m\033[33m\n\tDeveloper : \033[32m \033[33mS\033[32mutariya \033[33mP\033[32marixit\033[0m")
 time.sleep(1)
-print "\033[1m\033[33m\n\tBlog      :  \033[32mhttp:\033[33m//\033[32mbhai\033[33m4\033[32myou.blogspot.com\033[0m"
+print( "\033[1m\033[33m\n\tBlog      :  \033[32mhttp:\033[33m//\033[32mbhai\033[33m4\033[32myou.blogspot.com\033[0m")
 time.sleep(1)
-print "\033[1m\033[33m\n\tGithub    :  \033[32mhttp:\033[33m//\033[32mwww.github.com\033[33m/\033[32mBhai4You\033[0m"
+print( "\033[1m\033[33m\n\tGithub    :  \033[32mhttp:\033[33m//\033[32mwww.github.com\033[33m/\033[32mBhai4You\033[0m")
 time.sleep(1)
-print "\033[1m\033[33m\n\tYoutube   : \033[32m \033[33mB\033[32mull \033[33mA\033[32mnonymous\033[0m"
+print ("\033[1m\033[33m\n\tYoutube   : \033[32m \033[33mB\033[32mull \033[33mA\033[32mnonymous\033[0m")
 time.sleep(2)
 print
 print
@@ -165,16 +165,16 @@ print
 os.system( "bash logo.sh" )
 print
 def mnu():
-	print "\033[1m\033[32m[+]\033[36m Whois lookup"
-	print "\033[32m[+] \033[36mDNS lookup"
-	print "\033[32m[+]\033[36m Reverse DNS lookup"
-	print "\033[32m[+]\033[36m GeoIP lookup"
-	print "\033[32m[+] \033[36mReverse IP lookup"
-	print "\033[32m[+] \033[36mHttp Response"
-	print "\033[32m[+] \033[36mPing"
-	print "\033[32m[+] \033[36mPage Link"
-	print "\033[32m[+] \033[36mNmap"
-	print "\033[32m[+] \033[36mTraceroute"
+	print ("\033[1m\033[32m[+]\033[36m Whois lookup")
+	print ("\033[32m[+] \033[36mDNS lookup")
+	print ("\033[32m[+]\033[36m Reverse DNS lookup")
+	print ("\033[32m[+]\033[36m GeoIP lookup")
+	print ("\033[32m[+] \033[36mReverse IP lookup")
+	print ("\033[32m[+] \033[36mHttp Response")
+	print("\033[32m[+] \033[36mPing")
+	print ("\033[32m[+] \033[36mPage Link")
+	print ("\033[32m[+] \033[36mNmap")
+	print ("\033[32m[+] \033[36mTraceroute")
 	
 print
 print
@@ -182,9 +182,9 @@ print
 mnu()
 print
 print
-print "\033[1m\033[32mEnter Your IP Or Domain..."
+print ("\033[1m\033[32mEnter Your IP Or Domain...")
 print
-ip = raw_input("\033[1m\033[32m IP or Domain : \033[33m\033[1m")
+ip = input("\033[1m\033[32m IP or Domain : \033[33m\033[1m")
 print
 time.sleep(3)
 whois()
@@ -198,4 +198,3 @@ plink()
 nmap()
 trace()
 sys.exit()
-	
